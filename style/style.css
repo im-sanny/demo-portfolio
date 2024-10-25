@@ -15,11 +15,14 @@ header {
   width: 300px;
   margin: 200px 150px 0 0;
 }
-.button-primary {
-  width: 160px;
-  height: 64px;
+.btn-primary {
+  width: 280px;
+  height: 40px;
   color: #005fac;
-  padding: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 
 /* mid section */
@@ -52,15 +55,16 @@ header {
   margin-top: 30px;
 }
 .goales-container {
-  /* position: relative; */
+  width: 100%;
+  margin: auto;
   justify-content: center;
   display: flex;
+  gap: 120px;
   margin-top: 20px;
 }
 
 .goals {
-  padding-right: 60px;
-  margin-right: 20px;
+  text-align: center;
 }
 .img-title {
   margin-top: 10px;
@@ -75,7 +79,7 @@ header {
 /* bottom-banner-section */
 .last-banner {
   margin: 80px 60px 0 60px;
-  background-image: url("/images/watch.png");
+  background-image: url("/images/gradient1.png");
   border-radius: 5px;
   background-size: cover;
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
@@ -89,6 +93,11 @@ header {
   position: relative;
   margin-left: 150px;
   margin-top: -60px;
-
-  width: 90px;
+  width: 180px;
+  height: 40px;
+  color: #005fac;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
