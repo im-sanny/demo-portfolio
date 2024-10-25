@@ -1,100 +1,94 @@
 /* banner section */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-header{
-    background-image: url('/images/banner/banner3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+header {
+  background-image: url("/images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
-.banner-text{
-    position: relative;
-    float: right;
-    width: 300px;
-    margin: 200px 150px 0  0;
+.banner-text {
+  position: relative;
+  float: right;
+  width: 300px;
+  margin: 200px 150px 0 0;
 }
-.button-primary{
-        width: 160px;
-        height: 64px;
-        color: #005FAC;
-       padding: 20px;
-     
+.button-primary {
+  width: 160px;
+  height: 64px;
+  color: #005fac;
+  padding: 20px;
 }
 
 /* mid section */
 
-.profile-photo{
-margin-top: 50px;
-padding-left: 120px;
+.profile-photo {
+  margin-top: 50px;
+  padding-left: 120px;
 }
 
-.pofile-head{
-    color: #151414;
-    font-size: 20px;
-    width: 300px;
-    float: right;
-    margin: -500px 200px 0 0 ;
-    
+.pofile-head {
+  color: #151414;
+  font-size: 20px;
+  width: 300px;
+  float: right;
+  margin: -500px 200px 0 0;
 }
-#profile-details{
-    color: #444343;
-    font-size: 16px;
-    margin-top: 10px;
+#profile-details {
+  color: #444343;
+  font-size: 16px;
+  margin-top: 10px;
 }
-.line{
-    float: right;
-    margin: -300px 305px 0 0 ;
+.line {
+  float: right;
+  margin: -300px 305px 0 0;
 }
 /* bttom-main section */
 
-.bottom-heading{
-    text-align: center;
-    margin-top: 30px;
+.bottom-heading {
+  text-align: center;
+  margin-top: 30px;
 }
-.goales-container{
+.goales-container {
   /* position: relative; */
   justify-content: center;
   display: flex;
   margin-top: 20px;
-  
 }
 
- .goals{
-   padding-right: 60px;
-   margin-right: 20px;  
- }   
- .img-title{
-    margin-top: 10px;
+.goals {
+  padding-right: 60px;
+  margin-right: 20px;
+}
+.img-title {
+  margin-top: 10px;
   text-align: center;
-  justify-content: center;   
- }
- .img-description{
-    text-align: center;
-    justify-content: center;
-    margin-top: 5px;
- }
- /* bottom-banner-section */
- .last-banner{
-    margin: 80px 60px 0 60px;
-   background-image: url('/images/watch.png');
-    border-radius: 5px;
-    background-size: cover;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
-    height: 150px;
-   
- }
- .third-heading{
-   margin: -50px 0 80px 150px;
-   width: 250px;
-  
- }
- #third-button{
-   position: relative;
-    margin-left: 150px;
-    margin-top: -60px;
-    
-    width: 90px;
+  justify-content: center;
+}
+.img-description {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+/* bottom-banner-section */
+.last-banner {
+  margin: 80px 60px 0 60px;
+  background-image: url("/images/watch.png");
+  border-radius: 5px;
+  background-size: cover;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  height: 150px;
+}
+.third-heading {
+  margin: -50px 0 80px 150px;
+  width: 250px;
+}
+#third-button {
+  position: relative;
+  margin-left: 150px;
+  margin-top: -60px;
 
- }
+  width: 90px;
+}
